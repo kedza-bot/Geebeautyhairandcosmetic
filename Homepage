@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gee Beauty Hair & Cosmetics</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-4">
+
+  <div class="max-w-md w-full bg-gray-800 border border-gray-700 rounded-2xl p-6 shadow-2xl text-center space-y-6">
+    
+    <!-- Header / Branding -->
+    <div class="space-y-2">
+      <div class="w-20 h-20 bg-amber-500 rounded-full flex items-center justify-center mx-auto shadow-md">
+        <i class="fa-solid fa-gem text-3xl text-gray-900"></i>
+      </div>
+      <h1 class="text-2xl font-bold tracking-wide text-amber-400">Gee Beauty</h1>
+      <p class="text-gray-400 text-sm">Hair & Cosmetics</p>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="space-y-4">
+      
+      <!-- WhatsApp Link -->
+      <a href="https://wa.me/27735085554" target="_blank" rel="noopener noreferrer" 
+         class="flex items-center justify-center gap-3 w-full py-3.5 px-4 bg-emerald-600 hover:bg-emerald-500 text-white font-medium rounded-xl transition duration-200 shadow-md">
+        <i class="fa-brands fa-whatsapp text-xl"></i>
+        <span>Chat on WhatsApp</span>
+      </a>
+
+      <!-- Google Review Link -->
+      <a href="https://g.page/r/CYly3HqrOF14EAE/review" target="_blank" rel="noopener noreferrer" 
+         class="flex items-center justify-center gap-3 w-full py-3.5 px-4 bg-amber-600 hover:bg-amber-500 text-white font-medium rounded-xl transition duration-200 shadow-md">
+        <i class="fa-solid fa-star text-xl"></i>
+        <span>Rate Us & Leave a Review</span>
+      </a>
+
+      <!-- Website Link -->
+      <a href="https://geebeautyhairandcosmetics.com" target="_blank" rel="noopener noreferrer" 
+         class="flex items-center justify-center gap-3 w-full py-3.5 px-4 bg-slate-700 hover:bg-slate-600 text-white font-medium rounded-xl transition duration-200 shadow-md">
+        <i class="fa-solid fa-globe text-xl"></i>
+        <span>Visit Our Official Website</span>
+      </a>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="pt-4 border-t border-gray-700 text-xs text-gray-500">
+      &copy; Gee Beauty Hair & Cosmetics. All rights reserved.
+    </div>
+
+  </div>
+
+</body>
+</html>
